@@ -8,6 +8,7 @@
 import SwiftUI
 
 @main
+// 앱 시작점.
 struct WatchWeatherApp: App {
     var body: some Scene {
         WindowGroup {
