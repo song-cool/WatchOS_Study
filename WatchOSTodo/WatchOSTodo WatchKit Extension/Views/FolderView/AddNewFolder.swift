@@ -64,6 +64,7 @@ struct AddNewFolder: View {
             try context.save()
             presentationMode.wrappedValue.dismiss()
         } catch let err {
+            // do 부분을 실패할 경우 실행되는 함수. 오류를 리턴함.
             print(err.localizedDescription)
         }
     }

@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 final class WeatherManager: ObservableObject {
-    @Published var weatherResponse =  WeatherResponse(forcast:  [])
+    @Published var weatherResponse =  WeatherResponse(forecast:  [])
     
     func getWeather(for coord: WeatherCoordinates) {
         let url = URL(string: "https://api.lil.software/weather?latitude=\(coord.lat)&longitude=\(coord.lon)")!

@@ -22,6 +22,8 @@
 		2DE821B528A3A5AF00C02B26 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE821B428A3A5AF00C02B26 /* WeatherManager.swift */; };
 		2DE821B728A3A97700C02B26 /* WeatherLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE821B628A3A97700C02B26 /* WeatherLocationManager.swift */; };
 		2DE821B928A3AC0A00C02B26 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE821B828A3AC0900C02B26 /* CityModel.swift */; };
+		2DE821BB28A3F69F00C02B26 /* OutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE821BA28A3F69F00C02B26 /* OutlineView.swift */; };
+		2DE821BD28A3F7A800C02B26 /* WatchWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE821BC28A3F7A800C02B26 /* WatchWeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,8 @@
 		2DE821B428A3A5AF00C02B26 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		2DE821B628A3A97700C02B26 /* WeatherLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocationManager.swift; sourceTree = "<group>"; };
 		2DE821B828A3AC0900C02B26 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		2DE821BA28A3F69F00C02B26 /* OutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineView.swift; sourceTree = "<group>"; };
+		2DE821BC28A3F7A800C02B26 /* WatchWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchWeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,8 @@
 		2DE821A928A3934A00C02B26 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2DE821BA28A3F69F00C02B26 /* OutlineView.swift */,
+				2DE821BC28A3F7A800C02B26 /* WatchWeatherView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -310,9 +316,11 @@
 				2DE821B728A3A97700C02B26 /* WeatherLocationManager.swift in Sources */,
 				2DE8219328A391AD00C02B26 /* WatchWeatherApp.swift in Sources */,
 				2DE8219128A391AD00C02B26 /* ContentView.swift in Sources */,
+				2DE821BB28A3F69F00C02B26 /* OutlineView.swift in Sources */,
 				2DE821B128A3A4FC00C02B26 /* WeatherModel.swift in Sources */,
 				2DE8219528A391AD00C02B26 /* ComplicationController.swift in Sources */,
 				2DE821B328A3A57A00C02B26 /* WeatherCoordinates.swift in Sources */,
+				2DE821BD28A3F7A800C02B26 /* WatchWeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
